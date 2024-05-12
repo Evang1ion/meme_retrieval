@@ -4,7 +4,8 @@ A multimodel internet meme retrieval framework.
 The goal is to create a system capable of quickly and accurately identifying memes by analyzing both visual content and textual information. 
 ## System design:
 Throughout the development process, the project opted for an open-source Chinese memedataset from GitHub and the Baidu OCR tool known for its high precision in Chinese andEnglish text recognition. In terms of text and image encoding, the project utilized CHINESECLIP to encode images and dual texts, storing the encoded image and text vectors in an Elasticsearch vector database deployed via Docker. Interaction with Elasticsearch through Kibana's Dev Tools facilitated efficient iteration and debugging throughout the development process. 
-<center>![image](https://github.com/Evang1ion/meme_retrieval/assets/104999640/3897e0e8-1975-4fe4-beb1-bfb69932f9d1)</center>
+![image](https://github.com/Evang1ion/meme_retrieval/assets/104999640/3897e0e8-1975-4fe4-beb1-bfb69932f9d1)
+
 ## Environment
 ### Data processing
 Python: 3.7 or above<br>
