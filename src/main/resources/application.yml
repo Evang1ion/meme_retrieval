@@ -1,0 +1,15 @@
+elasticsearch:
+  host: 10.122.231.38
+  port: 9200
+  scheme: http 
+  username: elastic
+  password: yNzpqIvkODsyqo7IKk5a
+
+
+clip:
+  service:
+    url: http://localhost:5000/vectorize
+
+logging:
+  level:
+    org.apache.http: DEBUG
