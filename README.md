@@ -21,7 +21,7 @@ Java: 17<br>
 Spring Boot: 3.2.2<br>
 Maven 3.9.5
 ## Program Structure
-Explaination for some imprtant program files.
+Explaination for some important program files.
 ### scripts
 baidu_ocr.py *For recongnizing meme text.*<br>
 set_vector_mapping.py *Setting the es mapping.*<br>
